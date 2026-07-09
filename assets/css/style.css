@@ -23,6 +23,7 @@ body {
     padding: 0;
     overflow-x: hidden;
     /* Prevents horizontal scrolling/stretching */
+    padding-top: 45px; /* Pushes header down under fixed navbar */
 }
 
 *,
