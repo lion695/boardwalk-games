@@ -16,15 +16,20 @@
 }
 
 /* Global styles */
-html, body {
-  width: 100%;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden; /* Prevents horizontal scrolling/stretching */
+html,
+body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    /* Prevents horizontal scrolling/stretching */
 }
 
-*, *::before, *::after {
-  box-sizing: border-box; /* Ensures padding doesn't break widths */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    /* Ensures padding doesn't break widths */
 }
 
 body {
@@ -111,21 +116,21 @@ h2 {
 
 /* Events */
 #events {
-  width: 100%;
-  max-width: 800px;        /* Limits stretching on giant desktop screens */
-  margin: 0 auto;          /* Perfectly centers the entire section */
-  padding: 40px 24px;      /* Generous breathing room on sides for mobile */
-  box-sizing: border-box;
-  display: flex;
-  flex-direction: column;
-  align-items: center;     /* Vertically aligns all children to the center */
+    width: 100%;
+    max-width: 800px;
+    /* Limits stretching on giant desktop screens */
+    margin: 0 auto;
+    /* Perfectly centers the entire section */
+    padding: 40px 24px;
+    /* Generous breathing room on sides for mobile */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Vertically aligns all children to the center */
 }
 
 #events .table {
-    /* events table font size small enough that 
-      the table doesn't overflow on xs screens. 
-      Size set back to 1rem in a media query 
-      for sm screens and up */
     font-size: 0.7rem;
 }
 
@@ -204,6 +209,7 @@ h2 {
     #events .table {
         font-size: 1rem;
     }
+
     .student-discount {
         font-size: 1rem;
     }
